@@ -1,5 +1,5 @@
 //RUN:  node automated_testing.js
-const stripe = require('stripe')('sk_test_51QWd3rP8IfexbQCPcBX0fQGCDOHHkzGfTt3Qmx1CgVJCqlvFVfKJbLdk2vShoZPymr54YDRVSisjvo9ub0nLZECK00stmt8UAT');
+const stripe = require('stripe')('your-stripe-secret-key');
 
 async function createPaymentIntent() {
   try {
